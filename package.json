@@ -17,13 +17,13 @@
     "nuxt": "3.9.1",
     "nuxt-icon": "0.6.7",
     "prettier": "3.1.1",
-    "prettier-plugin-tailwindcss": "0.5.9",
     "yarn-upgrade-all": "^0.7.2"
   },
   "dependencies": {
     "@iconify-json/lucide": "1.1.145",
     "@nuxt/image": "1.1.0",
     "@nuxt/ui": "2.11.1",
+    "swiper": "^11.2.10",
     "vue-use-fixed-header": "^2.0.0"
   }
 }

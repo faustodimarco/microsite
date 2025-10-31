@@ -1,0 +1,27 @@
+{
+  "name": "Figma Pro",
+  "description": "Professional design tool for teams. Create, prototype, and collaborate in real-time.",
+  "longDescription": "Take your design workflow to the next level with Figma Pro. Perfect for design teams who need advanced collaboration features and unlimited projects.",
+  "url": "https://figma.com",
+  "thumbnail": "https://cdn.sanity.io/images/599r6htc/localized/46a76c802176eb17b04e12108de7e7e0f3736dc6-1024x1024.png",
+  "category": "design",
+  "tags": ["design", "prototyping", "collaboration", "ui-ux"],
+  "status": "active",
+  "opensource": false,
+  "hasCoupon": true,
+  "discountPercentage": 25,
+  "redeemUrl": "https://figma.com/pricing",
+  "features": [
+    "Unlimited personal files",
+    "Version history",
+    "Team libraries",
+    "Advanced prototyping",
+    "Design systems"
+  ],
+  "terms": [
+    "Team plan features included",
+    "Billed annually"
+  ]
+}
+
+

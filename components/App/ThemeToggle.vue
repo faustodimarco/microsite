@@ -5,24 +5,27 @@ const isDark = computed({
   get() {
     return colorMode.value === "dark";
   },
-  set() {
-    colorMode.preference = colorMode.value === "dark" ? "light" : "dark";
+  set(value) {
+    colorMode.preference = value ? "dark" : "light";
   },
 });
+
+const toggleTheme = () => {
+  colorMode.preference = colorMode.value === "dark" ? "light" : "dark";
+};
 </script>
 
 <template>
   <UTooltip text="Toggle theme" :ui="{ popper: { strategy: 'absolute' } }">
     <button
-      class="relative px-3 py-4 flex items-center justify-center transition hover:text-primary-500 dark:hover:text-primary-400"
-      @click="isDark = !isDark"
+      @click="toggleTheme"
+      aria-label="Toggle theme"
+      class="p-3 rounded-full transition-colors duration-200 hover:opacity-70"
     >
-      <Icon
-        aria-hidden="true"
-        :name="isDark ? 'solar:sun-2-outline' : 'solar:moon-outline'"
-        class="w-5 h-5"
+      <Icon 
+        :name="isDark ? 'heroicons:sun' : 'heroicons:moon'" 
+        class="w-5 h-5 text-gray-600 dark:text-gray-300"
       />
-      <span class="sr-only">Toggle theme</span>
     </button>
   </UTooltip>
 </template>

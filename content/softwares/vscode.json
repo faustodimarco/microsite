@@ -1,0 +1,14 @@
+{
+  "name": "Visual Studio Code",
+  "description": "Powerful code editor with extensive extensions",
+  "longDescription": "Visual Studio Code is a lightweight but powerful source code editor which runs on your desktop. It comes with built-in support for JavaScript, TypeScript and Node.js and has a rich ecosystem of extensions for other languages and runtimes.",
+  "url": "https://code.visualstudio.com",
+  "thumbnail": "https://code.visualstudio.com/assets/images/code-stable.png",
+  "category": "development",
+  "tags": ["editor", "ide", "development", "microsoft"],
+  "status": "active",
+  "opensource": true,
+  "hasCoupon": false
+}
+
+

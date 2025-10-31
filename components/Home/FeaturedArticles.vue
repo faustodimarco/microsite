@@ -9,11 +9,11 @@
       </li>
     </ul>
     <div class="flex items-center justify-center mt-6 text-sm">
-      <UButton
-        label="All Articles &rarr;"
+      <AppButton
+        label="All Articles"
         to="/articles"
         variant="link"
-        color="gray"
+        right-icon="heroicons:arrow-right"
       />
     </div>
   </div>

@@ -1,0 +1,27 @@
+{
+  "name": "GitHub Copilot",
+  "description": "AI-powered code completion that helps you write code faster and smarter.",
+  "longDescription": "Transform your coding experience with GitHub Copilot's AI assistance. Get intelligent code suggestions, generate entire functions, and accelerate your development workflow.",
+  "url": "https://github.com/features/copilot",
+  "thumbnail": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+  "category": "development",
+  "tags": ["ai", "code-completion", "productivity", "development"],
+  "status": "active",
+  "opensource": false,
+  "hasCoupon": true,
+  "discountPercentage": 20,
+  "redeemUrl": "https://github.com/features/copilot",
+  "features": [
+    "AI-powered code suggestions",
+    "Support for dozens of languages",
+    "IDE integrations",
+    "Chat functionality",
+    "Pull request summaries"
+  ],
+  "terms": [
+    "GitHub account required",
+    "Compatible with VS Code, Visual Studio, Neovim, and JetBrains IDEs"
+  ]
+}
+
+

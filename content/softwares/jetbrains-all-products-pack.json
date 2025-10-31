@@ -1,0 +1,35 @@
+{
+  "name": "JetBrains All Products Pack",
+  "description": "Access to all JetBrains IDEs including IntelliJ IDEA, WebStorm, PyCharm, and more.",
+  "longDescription": "Get unlimited access to all JetBrains development tools. Perfect for full-stack developers who work with multiple languages and frameworks.",
+  "url": "https://jetbrains.com/all",
+  "thumbnail": "https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.png",
+  "category": "development",
+  "tags": ["ide", "development", "tools", "productivity"],
+  "status": "active",
+  "opensource": false,
+  "hasCoupon": true,
+  "discountPercentage": 40,
+  "couponCode": "JETBRAINS40",
+  "redeemUrl": "https://jetbrains.com/store",
+  "features": [
+    "IntelliJ IDEA Ultimate",
+    "WebStorm",
+    "PyCharm Professional",
+    "PhpStorm",
+    "GoLand",
+    "RubyMine",
+    "CLion",
+    "DataGrip",
+    "Rider",
+    "All other JetBrains IDEs"
+  ],
+  "terms": [
+    "First year discount",
+    "Individual license",
+    "Continuity discount applies for renewals"
+  ],
+  "validUntil": "2024-12-31"
+}
+
+

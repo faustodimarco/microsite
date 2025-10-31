@@ -1,0 +1,10 @@
+{
+  "name": "Full-Stack JavaScript Stack",
+  "description": "Everything you need for modern full-stack JavaScript development",
+  "longDescription": "Build complete web applications with this curated stack of JavaScript tools. From frontend to backend, database to deployment, this stack has you covered for end-to-end development.",
+  "thumbnail": "/stacks/fullstack-js.png",
+  "category": "development",
+  "tags": ["fullstack", "javascript", "nodejs", "react"],
+  "status": "active",
+  "softwareIds": ["vscode", "github-copilot", "postman", "railway-pro", "notion-pro"]
+}

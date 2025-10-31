@@ -5,7 +5,12 @@
     >
       <ContentDoc v-slot="{ doc }" tag="article">
         <article>
-          <h1>{{ doc.title }}</h1>
+          <h1 class="text-4xl sm:leading-tight md:leading-tight lg:leading-tight sm:text-3xl md:text-3xl lg:text-4xl font-semibold tracking-tight text-zinc-800 dark:text-zinc-100">{{ doc.title }}</h1>
+          <NuxtImg
+            :src="doc.image || 'https://deifkwefumgah.cloudfront.net/shadcnblocks/block/lummi/random11.jpeg'"
+            :alt="doc.title"
+            class="w-full h-64 sm:h-80 md:h-96 object-cover rounded-lg mb-8"
+          />
           <ContentRenderer :value="doc" />
         </article>
       </ContentDoc>

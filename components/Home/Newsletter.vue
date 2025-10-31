@@ -20,7 +20,7 @@
         class="flex-1"
         size="lg"
       />
-      <UButton label="Join &rarr;" size="lg" color="black" />
+      <AppButton label="Join" right-icon="heroicons:arrow-right" size="lg" variant="primary" />
     </div>
   </div>
 </template>

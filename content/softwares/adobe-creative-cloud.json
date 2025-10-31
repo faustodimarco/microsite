@@ -1,0 +1,33 @@
+{
+  "name": "Adobe Creative Cloud",
+  "description": "Complete creative suite including Photoshop, Illustrator, Premiere Pro, and more.",
+  "longDescription": "Unleash your creativity with the industry-standard creative applications. From photo editing to video production, Adobe Creative Cloud has everything you need.",
+  "url": "https://adobe.com",
+  "thumbnail": "https://www.adobe.com/content/dam/cc/icons/Creative_Cloud.svg",
+  "category": "design",
+  "tags": ["design", "photo-editing", "video-editing", "creative"],
+  "status": "active",
+  "opensource": false,
+  "hasCoupon": true,
+  "discountPercentage": 50,
+  "couponCode": "CREATIVE50",
+  "redeemUrl": "https://adobe.com/creativecloud/plans",
+  "features": [
+    "Photoshop",
+    "Illustrator",
+    "Premiere Pro",
+    "After Effects",
+    "InDesign",
+    "Lightroom",
+    "20+ creative apps",
+    "100GB cloud storage"
+  ],
+  "terms": [
+    "First year only",
+    "Auto-renewal at regular price",
+    "Credit card required"
+  ],
+  "validUntil": "2024-11-30"
+}
+
+

@@ -1,7 +1,15 @@
 <template>
   <NuxtLink :to="article._path" class="group">
-    <article>
-      <time
+    <article class="flex gap-4">
+      <div class="flex-shrink-0">
+        <NuxtImg
+          :src="article.image || 'https://deifkwefumgah.cloudfront.net/shadcnblocks/block/lummi/random6.jpeg'"
+          :alt="article.title"
+          class="w-20 h-20 sm:w-24 sm:h-24 object-cover rounded-lg"
+        />
+      </div>
+      <div class="flex-1 min-w-0">
+        <time
         class="relative z-10 order-first mb-3 flex items-center text-sm text-gray-400 dark:text-gray-500 pl-3.5"
         datetime="2022-09-05"
         ><span
@@ -21,6 +29,7 @@
       <p class="relative z-10 mt-2 text-sm text-gray-600 dark:text-gray-400">
         {{ article.description }}
       </p>
+      </div>
     </article>
   </NuxtLink>
 </template>

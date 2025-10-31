@@ -1,0 +1,30 @@
+{
+  "name": "Vercel Pro",
+  "description": "The platform for frontend developers. Deploy with zero configuration.",
+  "longDescription": "Build and deploy your frontend projects with Vercel Pro. Get advanced features like team collaboration, analytics, and priority support for your production applications.",
+  "url": "https://vercel.com",
+  "thumbnail": "https://assets.vercel.com/image/upload/v1662130559/nextjs/Icon_light_background.png",
+  "category": "cloud",
+  "tags": ["deployment", "hosting", "frontend", "serverless"],
+  "status": "active",
+  "opensource": false,
+  "hasCoupon": true,
+  "discountPercentage": 20,
+  "couponCode": "VERCEL20",
+  "redeemUrl": "https://vercel.com/pricing",
+  "features": [
+    "Unlimited websites",
+    "Serverless functions",
+    "Edge network",
+    "Web analytics",
+    "Team collaboration",
+    "Priority support"
+  ],
+  "terms": [
+    "Pro plan features",
+    "First 3 months discount"
+  ],
+  "validUntil": "2024-12-20"
+}
+
+
