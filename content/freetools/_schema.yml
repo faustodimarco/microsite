@@ -1,0 +1,21 @@
+title: Free Tools
+icon: i-heroicons:wrench-screwdriver
+fields:
+  - name: name
+    type: string
+    required: true
+    label: Tool Name
+  - name: url
+    type: string
+    label: URL
+  - name: description
+    type: text
+    label: Description
+  - name: category
+    type: select
+    options:
+      - design
+      - development
+      - productivity
+      - learning
+      - other

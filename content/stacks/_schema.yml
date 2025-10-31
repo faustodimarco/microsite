@@ -1,0 +1,36 @@
+title: Stacks
+icon: i-heroicons:rectangle-group
+fields:
+  - name: name
+    type: string
+    required: true
+    label: Stack Name
+  - name: description
+    type: text
+    label: Short Description
+  - name: longDescription
+    type: markdown
+    label: Long Description
+  - name: thumbnail
+    type: string
+    label: Thumbnail URL
+  - name: category
+    type: select
+    options:
+      - development
+      - design
+      - productivity
+      - cloud
+      - other
+  - name: tags
+    type: list
+    label: Tags
+  - name: status
+    type: select
+    options:
+      - active
+      - inactive
+  - name: softwareIds
+    type: list
+    label: Software IDs
+    description: List of software slugs to include in this stack

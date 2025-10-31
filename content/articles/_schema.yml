@@ -1,0 +1,19 @@
+title: Articles
+icon: i-heroicons:newspaper
+fields:
+  - name: title
+    type: string
+    required: true
+    label: Title
+  - name: description
+    type: text
+    label: Excerpt
+  - name: image
+    type: string
+    label: Cover Image URL
+  - name: published
+    type: date
+    label: Published Date
+  - name: slug
+    type: string
+    label: Slug

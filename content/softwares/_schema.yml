@@ -1,0 +1,71 @@
+title: Softwares
+icon: i-heroicons:cpu-chip
+fields:
+  - name: name
+    type: string
+    required: true
+    label: Name
+  - name: description
+    type: text
+    label: Short Description
+  - name: longDescription
+    type: markdown
+    label: Long Description
+  - name: url
+    type: string
+    label: Website URL
+  - name: thumbnail
+    type: string
+    label: Thumbnail URL
+  - name: category
+    type: select
+    options:
+      - development
+      - design
+      - productivity
+      - cloud
+      - other
+  - name: tags
+    type: list
+    label: Tags
+  - name: status
+    type: select
+    options:
+      - active
+      - inactive
+  - name: opensource
+    type: boolean
+    label: Open Source
+  - name: hasCoupon
+    type: boolean
+    label: Has Coupon
+  - name: discountPercentage
+    type: number
+    label: Discount Percentage
+    if:
+      hasCoupon: true
+  - name: couponCode
+    type: string
+    label: Coupon Code
+    if:
+      hasCoupon: true
+  - name: redeemUrl
+    type: string
+    label: Redeem URL
+    if:
+      hasCoupon: true
+  - name: features
+    type: list
+    label: Features
+    if:
+      hasCoupon: true
+  - name: terms
+    type: list
+    label: Terms
+    if:
+      hasCoupon: true
+  - name: validUntil
+    type: date
+    label: Valid Until
+    if:
+      hasCoupon: true
