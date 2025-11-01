@@ -37,4 +37,14 @@ export default defineNuxtConfig({
       Inter: [400, 500, 600, 700, 800, 900],
     },
   },
+  nitro: {
+    prerender: {
+      // Continue prerendering even if some routes fail
+      failOnError: false,
+      // Ignore routes that are known to have issues
+      ignore: [
+        '/stacks/full-stack-javascript-stack',
+      ],
+    },
+  },
 });
